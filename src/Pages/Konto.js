@@ -1,12 +1,12 @@
 import React from 'react';
 import '../App.css';
 
-const Home = () => {
+const Konto = () => {
     return (
         <div>
-            <h1 className="title">Home</h1>
+            <h1 className="title">Mein Konto</h1>
         </div>
     )
 }
 
-export default Home;
+export default Konto;

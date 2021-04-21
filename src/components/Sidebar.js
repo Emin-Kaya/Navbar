@@ -1,43 +1,42 @@
 import React from 'react';
-import * as FaIcons from 'react-icons/fa';
+import * as RiIcons from 'react-icons/ri';
 import * as AiIcons from 'react-icons/ai';
-import * as IoIcons from 'react-icons/io';
 
 export const SidebarData = [
   {
-    title: 'Home',
+    title: 'Start',
     path: '/',
-    icon: <AiIcons.AiFillHome />,
+    icon: <AiIcons.AiOutlineHome />,
     cName: 'nav-text'
   },
   {
-    title: 'Reports',
-    path: '/reports',
-    icon: <IoIcons.IoIosPaper />,
+    title: 'Entdecken',
+    path: '/entdecken',
+    icon: <AiIcons.AiOutlineCompass />,
     cName: 'nav-text'
   },
   {
-    title: 'Products',
-    path: '/products',
-    icon: <FaIcons.FaCartPlus />,
+    title: 'Mein Konto',
+    path: '/mein-konto',
+    icon: <RiIcons.RiAccountCircleLine />,
     cName: 'nav-text'
   },
   {
-    title: 'Team',
-    path: '/team',
-    icon: <IoIcons.IoMdPeople />,
+    title: 'Einstellungen',
+    path: '/einstellungen',
+    icon: <AiIcons.AiOutlineSetting />,
     cName: 'nav-text'
   },
   {
-    title: 'Messages',
-    path: '/messages',
-    icon: <FaIcons.FaEnvelopeOpenText />,
+    title: 'Info',
+    path: '/info',
+    icon: <AiIcons.AiOutlineInfoCircle />,
     cName: 'nav-text'
   },
   {
-    title: 'Support',
+    title: 'Kundenservice',
     path: '/support',
-    icon: <IoIcons.IoMdHelpCircle />,
+    icon: <RiIcons.RiCustomerServiceLine />,
     cName: 'nav-text'
   }
 ];
